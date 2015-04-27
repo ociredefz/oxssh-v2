@@ -1,6 +1,6 @@
 /*
- * oxssh2.c - small ssh v2 password bruteforcer
- * Copyright (C) 2012 Federico Fazzi - http://deftcode.org
+ * oxssh-v2.c - small ssh v2 password bruteforcer
+ * Copyright (C) 2012 Federico Fazzi - http://deftcode.ninja
  *
  * This file may be licensed under the terms of of the
  * GNU General Public License Version 2 (the ``GPL'').
@@ -136,7 +136,7 @@ int main(int argc, char **argv)
 	tcsetattr(fileno(stdin), TCSANOW, &tmp_term);
 
 	printf("\n\toxssh2 - small ssh v2 password bruteforcer \n"\
-	"http://deftcode.org/ (C) 2012\n\n" \
+	"http://deftcode.ninja/ (C) 2012\n\n" \
 	"Target: %s - Port: %d - Protocol: SSH v2\n\n", hostname, port);
 
 	rewind(fd);
